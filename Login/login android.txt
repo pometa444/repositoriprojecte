@@ -1,0 +1,23 @@
+Informació treta d'aquest link: 
+http://androideity.com/2012/07/05/login-en-android-usando-php-y-mysql/
+
+Crear una table con 3 campos: 
+
+CREATE TABLE IF NOT EXISTS `usuaris` (
+`idusuari` int(11) NOT NULL AUTO_INCREMENT,
+`nombre` varchar(50) NOT NULL,
+`passwd` longtext NOT NULL,
+PRIMARY KEY (`idusuari`),
+UNIQUE KEY `nombre` (`nombre`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+Part del servidor:
+
+Copieu totes els fitxers de droidlogin a l'arrel del vostre servidor a Hostinger, però canviant en el fitxer config.php les vostres dades de connexió a la base de dades (nom de la base de dades, usuari i password).
+
+Part Android: 
+Importeu el projecte DroidLoginHosti, i modifiqueu només el fitxer MainActivity, i escribiu la següent linea:
+
+String IP_Server="webisaac.esy.es";//IP DE NUESTRO PC
+
+i escriviu el vostre servidor. 

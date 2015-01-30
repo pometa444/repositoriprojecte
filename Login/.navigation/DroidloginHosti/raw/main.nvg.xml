@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.droidloginhosti.AfegirActivity"/>
+      <point      
+        x = "3794"      
+        y = "1739"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.droidloginhosti.HiScreen"/>
+      <point      
+        x = "0"      
+        y = "958"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.droidloginhosti.CalendarActivity"/>
+      <point      
+        x = "3194"      
+        y = "0"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.droidloginhosti.MainActivity"/>
+      <point      
+        x = "790"      
+        y = "-158"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.droidloginhosti.ModificarActivity"/>
+      <point      
+        x = "1916"      
+        y = "-159"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.droidloginhosti.DestinsActivity"/>
+      <point      
+        x = "1118"      
+        y = "1277"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.droidloginhosti.GoogleMapsActivity"/>
+      <point      
+        x = "750"      
+        y = "350"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
